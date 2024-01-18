@@ -1,0 +1,104 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #333238;
+  color: #fff;
+ 
+}
+/* ... other styles ... */
+
+.input-field {
+  padding: 8px;
+  margin-bottom: 10px;
+  color: black; /* Set text color to black */
+  border-radius: 500px;
+}
+
+.input-button {
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #555;
+  color: #fff;
+  width: 100%;
+  border-radius: 500px;
+}
+
+/* ... other styles ... */
+
+
+.Tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+ 
+}
+
+.tab-header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 10px;
+  
+}
+
+.tab-button {
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #3c3a3f;
+  color: #b6b8be;
+  font-weight: bolder;
+  flex-grow: 1;
+  border-radius: 50px;
+ 
+  /* border-bottom-left-radius: 50px; */
+}
+
+.tab-button.hover{
+  background-color: #060761;
+  
+}
+
+.tab-button.active {
+  background-color: #060761;
+}
+
+.tab-content {
+  border: 3px solid #ddd;
+  padding: 10px;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.input-label {
+  margin-bottom: 5px;
+}
+
+.input-field {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.input-button {
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  background-color: #737179;
+  color: #fff;
+  width: 90%;
+  border-radius: 500px;
+}
+
+.input-button:hover {
+  background-color: #0f0554;
+}
