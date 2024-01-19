@@ -15,7 +15,7 @@ const Register = () => {
 
   const handleRegister = async () => {
     try {
-      const response = await axios.post('http://localhost:8000/api/register', {
+      const response = await axios.post('http://localhost:7000/api/register', {
         Select_your_organization_type: organizationType,
         Name_of_your_organization: organizationName,
         PAN_Card: panCard,

@@ -11,7 +11,7 @@ function Profile(){
     // const email='coinbase@gmail.com'
     const run=async (usermail)=>{
         try {
-            const res=await axios.post('http://localhost:8000/api/profile',{
+            const res=await axios.post('http://localhost:7000/api/profile',{
             Email_ID:usermail
             })
             setdata(res.data)

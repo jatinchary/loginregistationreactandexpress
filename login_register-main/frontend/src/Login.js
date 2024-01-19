@@ -14,7 +14,7 @@ const Login = () => {
 
   const handleLogin = async () => {
     try {
-      const response = await axios.post('http://localhost:8000/api/login', {
+      const response = await axios.post('http://localhost:7000/api/login', {
         Email_ID: Email_ID,  // Assuming you use 'username' as the field name
         Password: password,
       });
